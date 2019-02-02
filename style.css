@@ -2,9 +2,7 @@
   color: #0B320A;
   font-family: trebuchet ms;
   font-size: 70px;
-  padding-top: 20px;
-  padding-left: 30px;
-  padding-bottom: -20px;
+  padding: 20px 0px -20px 30px;
   margin: 20px;
 }
 #main {
@@ -20,7 +18,7 @@
   display: block;
   align-self: center;
 }
-.imgcaption {
+#img-caption {
   color: #0B320A;
   font-size: 15px;
   font-family: verdana;
@@ -28,6 +26,12 @@
   padding: 10px;
   margin: 0px;
   text-align: center;
+}
+.link {
+  color: #0B320A;
+  font-size: 20px;
+  font-family: verdana;
+  padding: 30px 150px 0px 50px;
 }
 q {
   color: #0B320A;
@@ -47,9 +51,16 @@ ul {
   color: #0B320A;
   font-size: 15px;
   font-family: verdana;
-  border-left: #0B320A solid 3px;
-  padding-left: 200px;
-  padding-right: 200px;
+  border: #0B320A solid 3px;
+  box-shadow: 10px 10px 5px #0B320A;
+  padding: 50px 100px 50px 100px;
   text-decoration: none;
   line-height: 1.8;
+}
+footer {
+  color: #0B320A;
+  font-size: 15px;
+  font-family: verdana;
+  padding: 20px;
+  margin: 15px;
 }
